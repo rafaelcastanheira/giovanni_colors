@@ -1,0 +1,37 @@
+———> WEBSITE GIOVANNI COLORS <———
+
+
+- HomePage -
+
+. GiovanniColors Logo
+. Fotos em formato meio panorama , de Fundo para fazer Slide ou Video realizado pela Carol
+. Boas Vindas / Welcomes + smile ou pequena ilustração
+. Pequena biografia, uma ou duas frases, 1 parágrafo portanto.
+. Colocar Playlist para poderem fazer skip ou não
+
+Rodapé da homepage - Pictogramas das App’s - behance ; instagram ; Linkedin ; Gmail
+
+
+Capitulos / tópicos / Hiperligaçoes para aceder
+
+. StreetArt Work (envio Zip)
+. Design Work (envio Zip)
+. Canvas Work (envio Zip) ou talvez SHOP para aparecer as telas para comprar !! Com um pequeno descritivo e preço e tamanho
+. Contacts - (+351) 916 022 574 ; giovannicolors@gmail.com ; @giovannicolors - IG 
+
+
+(Colocar fundo escuro com tipografia simples e futurista branca, algumas opções podem nao ter interior mas apenas stroke(contorno).
+(Algumas ligações poderão ter algum motion, alguma vida nas ligações)
+(Algumas cores modo balão de agua rebentado ou escorrido aguado poderá entrar sobre o fundo escuro falado)
+(Possível implementação de lagartos/iguanas/geckos do site pexels)
+(Pictogramas e ícones do FreePik)
+
+(importante)
+- haver coerência gráfica entre os diferentes elementos e hiperligações
+- 2 tipografias no máximo
+- Capslock se encaixar melhor
+- B&W fundo e letras informativas
+- Minimalista (menos é mais)
+
+https://www.artistandesigner.com/    utilizar este website da minha colega que ja vimos como inspiração de informação
+Mas o Layout terá de ser muito melhor e diferente dessa identidade/cor/comunicação, algo mais moderno simples e contrastivo, e com o tal Motion num ou outro pormenor.

@@ -1,0 +1,22 @@
+homepage:
+menu fix
+sepradores: projetos, sobre e contacto
+social: insta, email, LinkedIn
+
+
+sobre:
+aguardar pelo vecchio
+
+
+projetos:
+categorais: design, painting and outdoor painting
+
+
+imagens
+lagartos -> pexels
+
+
+referências:
+https://duallstudio.com/
+https://www.artistandesigner.com/
+https://pt.wix.com/website-template/view/html/1903?siteId=1bf0656f-a612-4533-85ac-7f2d5cbabb75&metaSiteId=e6bbf938-c6ab-4776-8a08-95478ebb8406&originUrl=https%3A%2F%2Fpt.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv%2Fportfolios
