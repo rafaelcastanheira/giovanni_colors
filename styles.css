@@ -4,34 +4,7 @@ body{
   text-align: center;
 }
 
-.logo{
-  width: 80%;
-  height: 50%;
-  z-index: 1;
-  position: relative;
-  left: -50%;
-}
-
-.navbar{
-  z-index: 1;
-  position: relative;
-  left: -50%;
-  text-align: center;
-}
-
-#navbar-container{
-  position: absolute;
-  text-align: center;
-  z-index: 1;
-  left: 50%;
-}
-
-.nav-item {
-  padding: 0 45px;
-  font-family: 'Balsamiq Sans', cursive;
-  font-size: 2.5rem;
-}
-
+/*Carousel*/
 #slider{
   position: absolute;
   z-index: 0;
@@ -39,30 +12,79 @@ body{
 }
 
 .carousel-img{
-  height: 100%;
+  height: 100vh;
+  width: auto;
   opacity: 0.5;
 }
 
 
 
-#work{
-  background-color: #363631;
+
+
+
+/*Navbar*/
+.logo{
+  width: 20%;
+  height: 10%;
 }
 
-.feature-title {
-  font-size: 1.5rem;
+
+#navbar-container{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.navbar{
+  padding: 0 5%;
+}
+
+
+.nav-item {
+  padding: 0 45px;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 2.5rem;
+}
+
+
+
+
+
+
+#features{
+  padding: 5% 5% 0;
+
+}
+
+.feature-row{
+  padding: 0 2%;
+}
+
+.feature-img{
+  border-radius: 25px;
+  height: 25rem;
+  width: 25rem;
+}
+
+
+.feature{
+  margin: 0 auto;
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+}
+
+h3{
+  left: 20px;
+  top: 20px;
+  position: absolute;
   color: white;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 3.5rem;
 }
 
-.feature-box {
-  padding: 4.5%;
-}
+p{
 
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
 }
