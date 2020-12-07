@@ -11,10 +11,9 @@ body{
   height: 20px;
 }
 
-.carousel-img{
+#background{
+  position: fixed;
   height: 100vh;
-  width: auto;
-  opacity: 0.5;
 }
 
 
@@ -85,6 +84,19 @@ h3{
   font-size: 3.5rem;
 }
 
-p{
 
+
+
+
+#footer{
+  height: 200px;
+  background-color: white;
+}
+
+.fab{
+  color: white;
+}
+
+.anda{
+  color: white;
 }
