@@ -43,14 +43,13 @@ body{
 
 /*Features*/
 
+.feature{
+  border: 4px solid white;
+}
+
 .feature-row{
   height: 5rem;
 }
-
-.feature-img{
-
-}
-
 
 
 
