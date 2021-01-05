@@ -43,12 +43,33 @@ body{
 
 /*Features*/
 
+#features{
+}
+
 .feature{
-  border: 4px solid white;
+  border: 8px solid white;
+  border-radius: 25px;
+  table-layout: fixed;
+  width: 70%;
+  margin: 15% auto;
 }
 
 .feature-row{
   height: 5rem;
+}
+
+.feature-title{
+  color: white;
+  padding-top: 8%;
+}
+
+.feature-description{
+  color: white;
+  padding-bottom: 10%;
+}
+
+.feature-btn{
+  margin-bottom: 8%;
 }
 
 
