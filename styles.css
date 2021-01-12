@@ -44,23 +44,19 @@ body{
 /*Features*/
 
 #features{
+  margin-top: 8%;
 }
 
 .feature{
-  border: 8px solid white;
-  border-radius: 25px;
-  table-layout: fixed;
   width: 70%;
-  margin: 15% auto;
-}
-
-.feature-row{
-  height: 5rem;
+  margin: 0 auto;
 }
 
 .feature-title{
   color: white;
   padding-top: 8%;
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
 }
 
 .feature-description{
