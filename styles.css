@@ -1,26 +1,31 @@
-
-
-body{
+body {
   text-align: center;
 }
 
 /*Carousel*/
-#background{
+#background-carousel {
   position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
-
-
-
-
-
+.carousel,
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+.item {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  z-index: 0;
+}
 
 /*Navbar*/
-.logo{
+.logo {
   width: 20%;
   height: 10%;
 }
@@ -33,56 +38,8 @@ body{
   padding: 0 5%;
 }
 
-.menu_option{
+.menu_option {
   color: white;
   padding: 0 2rem;
   font-size: 1rem;
 }
-
-
-
-/*Features*/
-
-#features{
-  margin-top: 8%;
-}
-
-.feature{
-  width: 70%;
-  margin: 0 auto;
-}
-
-.feature-title{
-  color: white;
-  padding-top: 8%;
-  padding-bottom: 2%;
-  font-family: 'Fredoka One', cursive;
-  font-size: 3rem;
-}
-
-.feature-description{
-  color: white;
-  padding-bottom: 10%;
-}
-
-.feature-btn{
-  margin-bottom: 8%;
-}
-
-.fas{
-  color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
