@@ -1,11 +1,9 @@
-
-
-body{
+body {
   text-align: center;
 }
 
 /*Carousel*/
-#background{
+#background {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -14,13 +12,8 @@ body{
   z-index: -1;
 }
 
-
-
-
-
-
 /*Navbar*/
-.logo{
+.logo {
   width: 20%;
   height: 10%;
 }
@@ -33,56 +26,40 @@ body{
   padding: 0 5%;
 }
 
-.menu_option{
+.menu_option {
   color: white;
   padding: 0 2rem;
   font-size: 1rem;
 }
 
-
-
 /*Features*/
 
-#features{
+#features {
   margin-top: 8%;
 }
 
-.feature{
+.feature {
   width: 70%;
   margin: 0 auto;
 }
 
-.feature-title{
-  color: white;
+.feature-title {
+  color: #e2e2e4;
   padding-top: 8%;
   padding-bottom: 2%;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
   font-size: 3rem;
 }
 
-.feature-description{
-  color: white;
+.feature-description {
+  color: #e2e2e4;
   padding-bottom: 10%;
 }
 
-.feature-btn{
+.feature-btn {
   margin-bottom: 8%;
 }
 
-.fas{
-  color: white;
+.fas {
+  color: #e2e2e4;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
