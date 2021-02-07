@@ -75,7 +75,7 @@
                         <a class="nav-link" href="{% url 'homepage' %}"><span class="menu_option">Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'portfolio' %}"><span class="menu_option">Portfolio</span></a>
+                        <a class="nav-link" href="#"><span class="menu_option">Portfolio</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#cta"><span class="menu_option">Contact</span></a>
@@ -99,19 +99,38 @@
 
       <!-- Tabs -->
     <div class="btn-group tabs" role="group" aria-label="Basic radio toggle button group">
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onchange="redirectTo('all')"
+        {% if art_type == 'all' %}
+               checked
+        {% endif %} >
         <label class="btn btn-outline-light" for="btnradio1">All</label>
 
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onchange="redirectTo('street')"
+      {% if art_type == 'street' %}
+               checked
+        {% endif %} >
       <label class="btn btn-outline-light" for="btnradio2">Street</label>
 
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onchange="redirectTo('canvas')"
+      {% if art_type == 'canvas' %}
+               checked
+        {% endif %} >
       <label class="btn btn-outline-light" for="btnradio3">Canvas</label>
 
-      <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+      <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" onchange="redirectTo('design')"
+      {% if art_type == 'design' %}
+               checked
+        {% endif %} >
       <label class="btn btn-outline-light" for="btnradio4">Design</label>
     </div>
 
+
+    <script>
+        function redirectTo(endpoint) {
+            window.location.href = 'http://127.0.0.1:8000/portfolio/'+endpoint;
+        }
+    </script>
 
 
 

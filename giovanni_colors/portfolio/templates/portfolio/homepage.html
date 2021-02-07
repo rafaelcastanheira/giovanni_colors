@@ -62,7 +62,7 @@
                         <a class="nav-link" href="{% url 'homepage' %}"><span class="menu_option">Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'portfolio' %}"><span class="menu_option">Portfolio</span></a>
+                        <a class="nav-link" href="{% url 'portfolio' 'all' %}"><span class="menu_option">Portfolio</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#cta"><span class="menu_option">Contact</span></a>
@@ -79,17 +79,17 @@
             <div class="feature col-lg-4 col-md-6">
                 <i class="fas fa-spray-can fa-4x"></i>
                 <h3 class="feature-title">Street Art</h3>
-                <button class="btn btn-outline-light btn-lg feature-btn">Check it out!</button>
+                <a href="{% url 'portfolio' 'street' %}" class="btn btn-outline-light btn-lg feature-btn">Check it out!</a>
             </div>
             <div class="feature col-lg-4 col-md-6">
                 <i class="fas fa-palette fa-4x"></i>
                 <h3 class="feature-title">Canvas Art</h3>
-                <button class="btn btn-outline-light btn-lg feature-btn">Check it out!</button>
+                <a href="{% url 'portfolio' 'canvas' %}" class="btn btn-outline-light btn-lg feature-btn">Check it out!</a>
             </div>
             <div class="feature col-lg-4 col-md-6">
                 <i class="fas fa-laptop fa-4x"></i>
                 <h3 class="feature-title">Design Art</h3>
-                <button class="btn btn-outline-light btn-lg feature-btn">Check it out!</button>
+                <a href="{% url 'portfolio' 'design' %}" class="btn btn-outline-light btn-lg feature-btn">Check it out!</a>
             </div>
         </div>
     </section>

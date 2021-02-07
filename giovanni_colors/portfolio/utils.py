@@ -1,3 +1,5 @@
+
+
 def split_by_columns(art_list):
     first, second, third = [], [], []
     counter = 1
