@@ -36,7 +36,8 @@ body {
 
 /*Quote*/
 .big-heading {
-  font-family: "Fredoka One", cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
   font-size: 3.5rem;
   line-height: 1.5;
   color: #e2e2e4;

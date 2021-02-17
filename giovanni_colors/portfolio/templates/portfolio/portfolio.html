@@ -18,18 +18,8 @@
     ></script>
 
     <!--Google Fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
 
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -50,6 +40,24 @@
 
   <body>
 
+  <script>
+    setInterval(function() {
+    var filters = ["brightness", "contrast", "grayscale", "hue-rotate", "invert", "saturate", "sepia"]
+    var randomNumber = Math.floor(Math.random() * 7);
+
+    if (filters[randomNumber] === "hue-rotate"){
+        var randomValue = Math.floor(Math.random() * 361);
+        document.getElementById("logo").style.filter = filters[randomNumber]+"("+randomValue.toString()+"deg"+")";
+    }
+    else{
+         var randomValue = Math.floor(Math.random() * 101);
+        document.getElementById("logo").style.filter = filters[randomNumber]+"("+randomValue.toString()+"%"+")";
+    }
+}, 500);
+</script>
+
+
+
       <!-- Carousel-->
     <section id="slider">
         <video autoplay muted loop id="background">
@@ -61,7 +69,7 @@
     <!-- Navbar -->
     <section id="navbar-container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <img class="logo navbar-brand" src="{% static 'portfolio/logo-white.png' %}">
+            <img class="logo navbar-brand" id="logo" src="{% static 'portfolio/logo-white.png' %}">
 
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
                 data-target="#navbarTogglerDemo02">
@@ -128,7 +136,7 @@
 
     <script>
         function redirectTo(endpoint) {
-            window.location.href = 'http://127.0.0.1:8000/portfolio/'+endpoint;
+            window.location.href = 'http://bd5e7f49e1e3.ngrok.io/portfolio/'+endpoint;
         }
     </script>
 

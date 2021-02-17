@@ -1,3 +1,7 @@
+html {
+  min-height: 100%;
+}
+
 body {
   text-align: center;
 }
@@ -47,7 +51,7 @@ body {
   color: #e2e2e4;
   padding-top: 8%;
   padding-bottom: 2%;
-  font-family: "Fredoka One", cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
 }
 
@@ -63,3 +67,4 @@ body {
 .fas {
   color: #e2e2e4;
 }
+
