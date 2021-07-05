@@ -99,7 +99,7 @@
 
     <!-- Quote -->
     <div class="container-fluid">
-      <blockquote class="big-heading">Art Is Not What You See But What You Make Others See.</blockquote>
+      <blockquote class="big-heading">"ALL COLORS MATTER"</blockquote>
     </div>
 
 
@@ -136,17 +136,20 @@
 
     <script>
         function redirectTo(endpoint) {
-            window.location.href = 'http://bd5e7f49e1e3.ngrok.io/portfolio/'+endpoint;
+            window.location.href = 'http://b6ef0e8c5f90.ngrok.io/'+endpoint;
         }
     </script>
-
-
 
     <!-- Images -->
     <div class="row">
       <div class="column">
           {% for art in first %}
-            <img src="{{art.image.url}}">
+            <div class="container">
+                <img src="{{art.image.url}}" alt="Avatar" class="image">
+                <div class="middle">
+                    <div class="text">John Doe</div>
+                </div>
+            </div>
           {% endfor %}
       </div>
       <div class="column">
@@ -159,14 +162,6 @@
             <img src="{{art.image.url}}">
           {% endfor %}
       </div>
-<!--      <div class="column">-->
-<!--        <img src="images/ex4.jpg" />-->
-<!--        <img src="images/ex4.jpg" />-->
-<!--        <img src="images/ex5.jpg" />-->
-<!--        <img src="images/street-img.jpg" />-->
-<!--        <img src="images/street-img2.jpg" />-->
-<!--        <img src="images/canvas-img.jpg" />-->
-<!--      </div>-->
     </div>
   </body>
 </html>
